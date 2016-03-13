@@ -1,0 +1,86 @@
+
+/* font family lato and if lato is not supporter get sans-serif*/
+*{font-family: 'Lato', sans-serif;}
+
+/* design for main content wrapper*/
+#canvas {margin-left: 0px; padding-left: 50px; padding-top: 30px; min-width: 900px; height: 100%; overflow: hidden;}
+
+
+/* Styles for left panel*/
+/* Left panel of fized position, width and height*/
+#leftheader{ position: relative; width: 220px;word-wrap: break-word;z-index: 999; float: left;}
+
+#logoname {margin-bottom: 30px;}
+
+#name {font-size:27px;font-weight:bold;}
+
+#sidenav {height: auto; margin-bottom: 20px;}
+
+#title-box{padding-top: 0px;}
+#title {font-size: 26px; font-weight: 500;}
+
+#header, #page, #footer {padding: 0;}
+#mainpage {width: auto; margin-left:-25px; /*background: blue;*/ display: block;}
+#sub-row{/*padding-left: 17px;*/ margin-left: 0px;}
+#sub-block-right-panel{ padding: 17px;}
+
+.navTitle{font-size: 20px; font-weight: 400; margin-top: 0px;}
+
+.fixed{position: fixed;}
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+nav{display: block;}
+li a {
+    display: block;
+    font-size: 15px;
+    width: 100%;
+    color: black;
+    margin-top: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+hr{
+    border: none;
+    color: #bbb;
+    background-color: #bbb;
+    height: 1px;
+    display: block;
+    padding: 0;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+}
+
+.sub-block {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 17px;
+    padding-right: 17px;
+    /*overflow: hidden;*/
+}
+
+.sub-block-content { display: block; /*overflow: hidden;*/}
+
+.sub-sub-block-wrapper{margin-bottom: -5.04202%; overflow: hidden;}
+
+.sub-internal-block {
+    float:left;
+    width: 40%;
+    margin-top:0px;
+    margin-bottom: 5.04202%;
+    margin-right: 5.04202%;
+}
+.summary-image{padding-top: 0px;}
+.summary-title{display: block;}
+.sub-internal-title{font-size: 15px; font-weight: 500; padding-top: 0px; margin-top: 3px;}
+
+.summary-title-click {text-decoration: none; color: #000;cursor: auto;}
+
+
+.sub-internal-description{font-size: 13px; font-weight: 400; padding-top: 0px; margin-top: 0px;}
